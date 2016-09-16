@@ -164,7 +164,7 @@ PlayerSettings:
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: C:/Users/gebharsj/Desktop/CaveDweller/CaveDweller.keystore
+  AndroidKeystoreName: C:/Users/gebharsj/Desktop/GitHub/Cave-Dweller/CaveDweller.keystore
   AndroidKeyaliasName: cavedweller
   AndroidTVCompatibility: 1
   AndroidIsGame: 1
