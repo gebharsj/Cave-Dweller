@@ -73,21 +73,21 @@ public class MonsterAI : MonoBehaviour
 
     IEnumerator RunAway()
     {
+        print("run away");
         enemySpawnRandom = 0;
         gameObject.transform.position = enemySpawnPoints[enemySpawnRandom].transform.position;
         yield return new WaitForFixedUpdate();
+        currentBehavior = enemyBehavior.patrol;
         runningCoroutine = false;
-        print("ran away");
     }    
 
     IEnumerator Attack()
     {
         //Game Over
-        Debug.Log("You Dead");
         currentBehavior = enemyBehavior.chase;
         yield return new WaitForFixedUpdate();
         runningCoroutine = false;
-        SceneManager.LoadScene(gameOverScene);
+        SceneManager.LoadScene("MainMenu");
     }
 
     IEnumerator Chase()

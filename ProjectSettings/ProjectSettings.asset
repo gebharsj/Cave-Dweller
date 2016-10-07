@@ -6,7 +6,7 @@ PlayerSettings:
   serializedVersion: 8
   productGUID: 8c8c14b8e8b6c6c48aa6aab9cad85633
   AndroidProfiler: 0
-  defaultScreenOrientation: 4
+  defaultScreenOrientation: 3
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
@@ -164,7 +164,7 @@ PlayerSettings:
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: C:/Users/Peck2703/Documents/GitHub/Cave-Dweller/CaveDweller.keystore
+  AndroidKeystoreName: C:/Users/gebharsj/Documents/GitHub/Cave-Dweller/CaveDweller.keystore
   AndroidKeyaliasName: cavedweller
   AndroidTVCompatibility: 1
   AndroidIsGame: 1
@@ -470,7 +470,7 @@ PlayerSettings:
   PSM::VR::enable: 0
   PSP2::VR::enable: 0
   SamsungTV::VR::enable: 0
-  Standalone::VR::enable: 0
+  Standalone::VR::enable: 1
   Tizen::VR::enable: 0
   WebGL::VR::enable: 0
   WebGL::analyzeBuildSize: 0
