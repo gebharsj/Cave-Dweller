@@ -7,6 +7,7 @@ public class MonsterAI : MonoBehaviour
 {
     public GameObject[] enemySpawnPoints;
     GameObject player;
+    GameObject flashlight;
     int enemySpawnRandom;
     public int roamRadius;
     public int attackRadius;
@@ -124,6 +125,14 @@ public class MonsterAI : MonoBehaviour
 
     void OnTriggerEnter (Collider other)
     {
+        //print(other.gameObject);
+        /*if (other.gameObject.tag == "Respawn")
+        {
+            StopAllCoroutines();
+            print("Light Hit");
+            runningCoroutine = false;
+            currentBehavior = enemyBehavior.runAway;
+        }*/
         if (other.gameObject.tag == "Player")
         {
             StopAllCoroutines();

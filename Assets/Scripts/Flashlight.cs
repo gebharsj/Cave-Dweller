@@ -19,7 +19,7 @@ public class Flashlight : MonoBehaviour
 	// Update is called once per frame
 	void FixedUpdate ()
     {
-        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, playerLight.range))
+        /*if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, playerLight.range))
         {
             if (hit.transform.tag == "Enemy")
             {
@@ -29,7 +29,14 @@ public class Flashlight : MonoBehaviour
                     enemy.GetComponent<MonsterAI>().currentBehavior = MonsterAI.enemyBehavior.runAway;
                 }
             }
-        }
-        Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * playerLight.range, Color.red);
+        }*/
 	}
+    void OnTriggerStay(Collider other)
+    {
+        if (other.gameObject == enemy)
+        {
+            print("Ran away");
+            other.gameObject.GetComponent<MonsterAI>().currentBehavior = MonsterAI.enemyBehavior.runAway;
+        }
+    }
 }
