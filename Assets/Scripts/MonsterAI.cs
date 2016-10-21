@@ -1,20 +1,23 @@
 ﻿using UnityEngine;
 using UnityEngine.SceneManagement;
 using System.Collections;
-using System;
 
 public class MonsterAI : MonoBehaviour
 {
     public GameObject[] enemySpawnPoints;
-    GameObject player;
-    GameObject flashlight;
-    int enemySpawnRandom;
+
     public int roamRadius;
     public int attackRadius;
     public int deAggro;
+    public float patrolSpeed;
+    public float chaseSpeed;
 
+    GameObject player;
+    GameObject flashlight;
+    int enemySpawnRandom;
     bool runningCoroutine;
     string gameOverScene, winScreen;
+    Transform patrolTarget;
 
     public enum enemyBehavior
     {
@@ -34,7 +37,7 @@ public class MonsterAI : MonoBehaviour
     // Use this for initialization
     void Start ()
     {
-        enemySpawnRandom = UnityEngine.Random.Range(0, enemySpawnPoints.Length);
+        enemySpawnRandom = Random.Range(0, enemySpawnPoints.Length);
         gameObject.transform.position = enemySpawnPoints[enemySpawnRandom].transform.position;
         currentBehavior = enemyBehavior.patrol;
         myNavMeshAgent = gameObject.GetComponent<NavMeshAgent>();
@@ -75,8 +78,8 @@ public class MonsterAI : MonoBehaviour
     IEnumerator RunAway()
     {
         print("run away");
-        enemySpawnRandom = 0;
-        gameObject.transform.position = enemySpawnPoints[enemySpawnRandom].transform.position;
+        //enemySpawnRandom = 0;
+        gameObject.transform.position = enemySpawnPoints[Random.Range(0, enemySpawnPoints.Length)].transform.position;
         yield return new WaitForFixedUpdate();
         currentBehavior = enemyBehavior.patrol;
         runningCoroutine = false;
@@ -94,6 +97,7 @@ public class MonsterAI : MonoBehaviour
     IEnumerator Chase()
     {
         float distanceFromPlayer = Vector3.Distance(transform.position, player.transform.position);
+        myNavMeshAgent.speed = chaseSpeed;
 
         myNavMeshAgent.SetDestination(player.transform.position);
 
@@ -112,15 +116,35 @@ public class MonsterAI : MonoBehaviour
 
     IEnumerator Patrol()
     {
-        Vector3 randomDirection = UnityEngine.Random.insideUnitSphere * roamRadius;
-        randomDirection += transform.position;
-        NavMeshHit hit;
-        NavMesh.SamplePosition(randomDirection, out hit, roamRadius, 1);
-        Vector3 finalPosition = hit.position;
-        myNavMeshAgent.SetDestination(finalPosition);
-
-        yield return new WaitForSeconds(5f);
+        //patrolTarget = enemySpawnPoints[Random.Range(0, enemySpawnPoints.Length)].transform;
+        myNavMeshAgent.speed = patrolSpeed;
+        yield return new WaitUntil(MovingToPoint);
         runningCoroutine = false;
+
+        //Vector3 randomDirection = UnityEngine.Random.insideUnitSphere * roamRadius;
+        //randomDirection += transform.position;
+        //NavMeshHit hit;
+        //NavMesh.SamplePosition(randomDirection, out hit, roamRadius, 1);
+        //Vector3 finalPosition = hit.position;
+        //myNavMeshAgent.SetDestination(finalPosition);
+
+        //yield return new WaitForSeconds(5f);
+        //runningCoroutine = false;
+    }
+
+    bool MovingToPoint()
+    {
+        patrolTarget = player.transform;
+        myNavMeshAgent.SetDestination(patrolTarget.position);
+
+        if (Vector3.Distance(transform.position, patrolTarget.position) <= 0.5f)
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
     }
 
     void OnTriggerEnter (Collider other)

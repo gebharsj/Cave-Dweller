@@ -35,8 +35,14 @@ public class Flashlight : MonoBehaviour
     {
         if (other.gameObject == enemy)
         {
-            print("Ran away");
-            other.gameObject.GetComponent<MonsterAI>().currentBehavior = MonsterAI.enemyBehavior.runAway;
+            Vector3 targetDir = other.transform.position - transform.position;
+            Debug.DrawRay(transform.position, targetDir, Color.red);
+            if (Vector3.Angle(targetDir, transform.forward) < angle && Vector3.Distance(transform.position, other.transform.position) < 30)
+            {
+                Debug.DrawRay(transform.position, targetDir, Color.green);
+                print("Ran away");
+                other.gameObject.GetComponent<MonsterAI>().currentBehavior = MonsterAI.enemyBehavior.runAway;
+            }
         }
     }
 }
