@@ -12,6 +12,12 @@ public class MonsterAI : MonoBehaviour
     public float patrolSpeed;
     public float chaseSpeed;
 
+    public AudioSource source;
+    public AudioClip patrolClip;
+    public AudioClip chaseClip;
+    public AudioClip attackClip;
+    public AudioClip runAwayClip;
+
     GameObject player;
     GameObject flashlight;
     int enemySpawnRandom;
@@ -77,8 +83,7 @@ public class MonsterAI : MonoBehaviour
 
     IEnumerator RunAway()
     {
-        print("run away");
-        //enemySpawnRandom = 0;
+        source.clip = runAwayClip;
         gameObject.transform.position = enemySpawnPoints[Random.Range(0, enemySpawnPoints.Length)].transform.position;
         yield return new WaitForFixedUpdate();
         currentBehavior = enemyBehavior.patrol;
@@ -87,7 +92,7 @@ public class MonsterAI : MonoBehaviour
 
     IEnumerator Attack()
     {
-        //Game Over
+        source.clip = attackClip;
         currentBehavior = enemyBehavior.chase;
         yield return new WaitForFixedUpdate();
         runningCoroutine = false;
@@ -96,6 +101,7 @@ public class MonsterAI : MonoBehaviour
 
     IEnumerator Chase()
     {
+        source.clip = chaseClip;
         float distanceFromPlayer = Vector3.Distance(transform.position, player.transform.position);
         myNavMeshAgent.speed = chaseSpeed;
 
@@ -116,20 +122,10 @@ public class MonsterAI : MonoBehaviour
 
     IEnumerator Patrol()
     {
-        //patrolTarget = enemySpawnPoints[Random.Range(0, enemySpawnPoints.Length)].transform;
+        source.clip = patrolClip;
         myNavMeshAgent.speed = patrolSpeed;
         yield return new WaitUntil(MovingToPoint);
         runningCoroutine = false;
-
-        //Vector3 randomDirection = UnityEngine.Random.insideUnitSphere * roamRadius;
-        //randomDirection += transform.position;
-        //NavMeshHit hit;
-        //NavMesh.SamplePosition(randomDirection, out hit, roamRadius, 1);
-        //Vector3 finalPosition = hit.position;
-        //myNavMeshAgent.SetDestination(finalPosition);
-
-        //yield return new WaitForSeconds(5f);
-        //runningCoroutine = false;
     }
 
     bool MovingToPoint()
