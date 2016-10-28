@@ -22,8 +22,10 @@ public class MonsterAI : MonoBehaviour
     GameObject flashlight;
     int enemySpawnRandom;
     bool runningCoroutine;
+    bool playingClip;
     string gameOverScene, winScreen;
     Transform patrolTarget;
+    ScreenTransition fadePanel;
 
     public enum enemyBehavior
     {
@@ -49,11 +51,12 @@ public class MonsterAI : MonoBehaviour
         myNavMeshAgent = gameObject.GetComponent<NavMeshAgent>();
 
         player = GameObject.FindGameObjectWithTag("Player");
+        fadePanel = GameObject.Find("FadePanel").GetComponent<ScreenTransition>();
 	}
 	
 	// Update is called once per frame
 	void FixedUpdate ()
-    {
+    {        
         switch(currentBehavior)
         {
             case enemyBehavior.patrol:
@@ -68,8 +71,11 @@ public class MonsterAI : MonoBehaviour
             case enemyBehavior.runAway:
                 CallCoroutine("RunAway");
                 break;
-        }   
-	}
+        }
+
+        if (!source.isPlaying)
+            source.Play();
+    }
 
     public void CallCoroutine(string name)
     {
@@ -84,7 +90,8 @@ public class MonsterAI : MonoBehaviour
     IEnumerator RunAway()
     {
         source.clip = runAwayClip;
-        gameObject.transform.position = enemySpawnPoints[Random.Range(0, enemySpawnPoints.Length)].transform.position;
+        enemySpawnRandom = Random.Range(0, enemySpawnPoints.Length);
+        gameObject.transform.position = enemySpawnPoints[enemySpawnRandom].transform.position;
         yield return new WaitForFixedUpdate();
         currentBehavior = enemyBehavior.patrol;
         runningCoroutine = false;
@@ -96,7 +103,8 @@ public class MonsterAI : MonoBehaviour
         currentBehavior = enemyBehavior.chase;
         yield return new WaitForFixedUpdate();
         runningCoroutine = false;
-        SceneManager.LoadScene("MainMenu");
+        //SceneManager.LoadScene("MainMenu");
+        fadePanel.CallCoroutine("MainMenu");
     }
 
     IEnumerator Chase()
