@@ -33,7 +33,7 @@ public class Flashlight : MonoBehaviour
 	}
     void OnTriggerStay(Collider other)
     {
-        if (other.gameObject == enemy)
+        if (other.tag == "Enemy")
         {
             Vector3 targetDir = other.transform.position - transform.position;
             Debug.DrawRay(transform.position, targetDir, Color.red);

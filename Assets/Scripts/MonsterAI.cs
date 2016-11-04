@@ -81,6 +81,7 @@ public class MonsterAI : MonoBehaviour
     {
         if (!runningCoroutine)
         {
+            source.Stop();
             runningCoroutine = true;
             StopAllCoroutines();
             StartCoroutine(name);
