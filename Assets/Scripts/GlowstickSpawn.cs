@@ -26,7 +26,7 @@ public class GlowstickSpawn : MonoBehaviour {
 
     void FixedUpdate()
     {
-        if(Input.GetKeyDown(KeyCode.E))
+        if(Input.GetKeyDown(KeyCode.E) || Input.GetButtonDown("Fire1"))
         {
             if(glowstickCount > 0)
             {

@@ -4,6 +4,7 @@ using System.Collections;
 public class Flashlight : MonoBehaviour
 {
     public Light playerLight;
+    public float angle;
     RaycastHit hit;
 
     public GameObject enemy;
@@ -16,15 +17,32 @@ public class Flashlight : MonoBehaviour
 	}
 	
 	// Update is called once per frame
-	void Update ()
+	void FixedUpdate ()
     {
-        if (Physics.Raycast(transform.position, transform.forward, out hit, playerLight.range))
+        /*if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, playerLight.range))
         {
             if (hit.transform.tag == "Enemy")
             {
-                print("Back the fuck up");
-                enemy.GetComponent<MonsterAI>().CallCoroutine("RunAway");
+                if (Vector3.Angle(transform.position, hit.transform.position) < angle && Vector3.Distance(transform.position, hit.transform.position) < playerLight.range)
+                {
+                    print("hit");
+                    enemy.GetComponent<MonsterAI>().currentBehavior = MonsterAI.enemyBehavior.runAway;
+                }
+            }
+        }*/
+	}
+    void OnTriggerStay(Collider other)
+    {
+        if (other.tag == "Enemy")
+        {
+            Vector3 targetDir = other.transform.position - transform.position;
+            Debug.DrawRay(transform.position, targetDir, Color.red);
+            if (Vector3.Angle(targetDir, transform.forward) < angle && Vector3.Distance(transform.position, other.transform.position) < 30)
+            {
+                Debug.DrawRay(transform.position, targetDir, Color.green);
+                print("Ran away");
+                other.gameObject.GetComponent<MonsterAI>().currentBehavior = MonsterAI.enemyBehavior.runAway;
             }
         }
-	}
+    }
 }

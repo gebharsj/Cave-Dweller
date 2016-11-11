@@ -70,7 +70,6 @@ public class ScreenTransition : MonoBehaviour {
 
     public void CallCoroutine(string sceneName)
     {
-        StartCoroutine(HandleFade(sceneName));
-        
+        StartCoroutine(HandleFade(sceneName));        
     }
 }
