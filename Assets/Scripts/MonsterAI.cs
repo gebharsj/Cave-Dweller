@@ -18,6 +18,7 @@ public class MonsterAI : MonoBehaviour
     public AudioClip attackClip;
     public AudioClip runAwayClip;
 
+    Animator anim;
     GameObject player;
     GameObject flashlight;
     int enemySpawnRandom;
@@ -52,6 +53,7 @@ public class MonsterAI : MonoBehaviour
 
         player = GameObject.FindGameObjectWithTag("Player");
         fadePanel = GameObject.Find("FadePanel").GetComponent<ScreenTransition>();
+        anim = GetComponentInChildren<Animator>();
 	}
 	
 	// Update is called once per frame
@@ -94,22 +96,30 @@ public class MonsterAI : MonoBehaviour
         enemySpawnRandom = Random.Range(0, enemySpawnPoints.Length);
         gameObject.transform.position = enemySpawnPoints[enemySpawnRandom].transform.position;
         yield return new WaitForFixedUpdate();
+        anim.SetBool("isWalking", true);
+        anim.SetBool("isRunning", false);
+        anim.SetBool("isAttacking", false);
         currentBehavior = enemyBehavior.patrol;
         runningCoroutine = false;
     }    
 
     IEnumerator Attack()
     {
+        anim.SetBool("isWalking", false);
+        anim.SetBool("isRunning", false);
+        anim.SetBool("isAttacking", true);
         source.clip = attackClip;
         currentBehavior = enemyBehavior.chase;
         yield return new WaitForFixedUpdate();
-        runningCoroutine = false;
-        //SceneManager.LoadScene("MainMenu");
         fadePanel.CallCoroutine("MainMenu");
+        runningCoroutine = false;        
     }
 
     IEnumerator Chase()
     {
+        anim.SetBool("isWalking", false);
+        anim.SetBool("isRunning", true);
+        anim.SetBool("isAttacking", false);
         source.clip = chaseClip;
         float distanceFromPlayer = Vector3.Distance(transform.position, player.transform.position);
         myNavMeshAgent.speed = chaseSpeed;
@@ -131,6 +141,10 @@ public class MonsterAI : MonoBehaviour
 
     IEnumerator Patrol()
     {
+        anim.SetBool("isWalking", true);
+        anim.SetBool("isRunning", false);
+        anim.SetBool("isAttacking", false);
+        //print(anim.GetBool("isWalking"));
         source.clip = patrolClip;
         myNavMeshAgent.speed = patrolSpeed;
         yield return new WaitUntil(MovingToPoint);
@@ -154,14 +168,6 @@ public class MonsterAI : MonoBehaviour
 
     void OnTriggerEnter (Collider other)
     {
-        //print(other.gameObject);
-        /*if (other.gameObject.tag == "Respawn")
-        {
-            StopAllCoroutines();
-            print("Light Hit");
-            runningCoroutine = false;
-            currentBehavior = enemyBehavior.runAway;
-        }*/
         if (other.gameObject.tag == "Player")
         {
             StopAllCoroutines();

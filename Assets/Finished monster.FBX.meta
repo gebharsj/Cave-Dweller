@@ -1,0 +1,2122 @@
+fileFormatVersion: 2
+guid: dd26b3f7c527b27438ff85ba19e7238a
+timeCreated: 1482510178
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bip JawBone Control
+    100002: Bip001 EyeBrow
+    100004: Bip001 EyeBrowNub
+    100006: Bip001 Head
+    100008: Bip001 Head_End
+    100010: Bip001 Hips
+    100012: Bip001 JawBone
+    100014: Bip001 L Toe0Nub
+    100016: Bip001 LeftArm
+    100018: Bip001 LeftFoot
+    100020: Bip001 LeftForearm
+    100022: Bip001 LeftHand
+    100024: Bip001 LeftHandIndex
+    100026: Bip001 LeftHandIndex1
+    100028: Bip001 LeftHandIndex2
+    100030: Bip001 LeftHandIndex3
+    100032: Bip001 LeftHandMiddle
+    100034: Bip001 LeftHandMiddle1
+    100036: Bip001 LeftHandMiddle2
+    100038: Bip001 LeftHandMiddle3
+    100040: Bip001 LeftHandPinky
+    100042: Bip001 LeftHandPinky1
+    100044: Bip001 LeftHandPinky2
+    100046: Bip001 LeftHandPinky3
+    100048: Bip001 LeftHandRing
+    100050: Bip001 LeftHandRing1
+    100052: Bip001 LeftHandRing2
+    100054: Bip001 LeftHandRing3
+    100056: Bip001 LeftHandThumb1
+    100058: Bip001 LeftHandThumb2
+    100060: Bip001 LeftHandThumb3
+    100062: Bip001 LeftHandThumb4
+    100064: Bip001 LeftLeg
+    100066: Bip001 LeftShoulder
+    100068: Bip001 LeftToeBase
+    100070: Bip001 LeftUpLeg
+    100072: Bip001 Neck
+    100074: Bip001 R Toe0Nub
+    100076: Bip001 Reference
+    100078: Bip001 Reference 1
+    100080: Bip001 RightArm
+    100082: Bip001 RightFoot
+    100084: Bip001 RightForeArm
+    100086: Bip001 RightHand
+    100088: Bip001 RightHandThumb1
+    100090: Bip001 RightHandThumb2
+    100092: Bip001 RightHandThumb3
+    100094: Bip001 RightHandThumb4
+    100096: Bip001 RightInHandIndex
+    100098: Bip001 RightInHandIndex1
+    100100: Bip001 RightInHandIndex2
+    100102: Bip001 RightInHandIndex3
+    100104: Bip001 RightInHandMiddle
+    100106: Bip001 RightInHandMiddle1
+    100108: Bip001 RightInHandMiddle2
+    100110: Bip001 RightInHandMiddle3
+    100112: Bip001 RightInHandPinky
+    100114: Bip001 RightInHandPinky1
+    100116: Bip001 RightInHandPinky2
+    100118: Bip001 RightInHandPinky3
+    100120: Bip001 RightInHandRing
+    100122: Bip001 RightInHandRing1
+    100124: Bip001 RightInHandRing2
+    100126: Bip001 RightInHandRing3
+    100128: Bip001 RightLeg
+    100130: Bip001 RightShoulder
+    100132: Bip001 RightToeBase
+    100134: Bip001 RightUpLeg
+    100136: Bip001 Spine
+    100138: Bip001 Spine1
+    100140: Bip001 Spine2
+    100142: Bip001 Spine3
+    100144: Cavedweller retop
+    100146: Eye Left
+    100148: Eye Right
+    100150: //RootNode
+    400000: Bip JawBone Control
+    400002: Bip001 EyeBrow
+    400004: Bip001 EyeBrowNub
+    400006: Bip001 Head
+    400008: Bip001 Head_End
+    400010: Bip001 Hips
+    400012: Bip001 JawBone
+    400014: Bip001 L Toe0Nub
+    400016: Bip001 LeftArm
+    400018: Bip001 LeftFoot
+    400020: Bip001 LeftForearm
+    400022: Bip001 LeftHand
+    400024: Bip001 LeftHandIndex
+    400026: Bip001 LeftHandIndex1
+    400028: Bip001 LeftHandIndex2
+    400030: Bip001 LeftHandIndex3
+    400032: Bip001 LeftHandMiddle
+    400034: Bip001 LeftHandMiddle1
+    400036: Bip001 LeftHandMiddle2
+    400038: Bip001 LeftHandMiddle3
+    400040: Bip001 LeftHandPinky
+    400042: Bip001 LeftHandPinky1
+    400044: Bip001 LeftHandPinky2
+    400046: Bip001 LeftHandPinky3
+    400048: Bip001 LeftHandRing
+    400050: Bip001 LeftHandRing1
+    400052: Bip001 LeftHandRing2
+    400054: Bip001 LeftHandRing3
+    400056: Bip001 LeftHandThumb1
+    400058: Bip001 LeftHandThumb2
+    400060: Bip001 LeftHandThumb3
+    400062: Bip001 LeftHandThumb4
+    400064: Bip001 LeftLeg
+    400066: Bip001 LeftShoulder
+    400068: Bip001 LeftToeBase
+    400070: Bip001 LeftUpLeg
+    400072: Bip001 Neck
+    400074: Bip001 R Toe0Nub
+    400076: Bip001 Reference
+    400078: Bip001 Reference 1
+    400080: Bip001 RightArm
+    400082: Bip001 RightFoot
+    400084: Bip001 RightForeArm
+    400086: Bip001 RightHand
+    400088: Bip001 RightHandThumb1
+    400090: Bip001 RightHandThumb2
+    400092: Bip001 RightHandThumb3
+    400094: Bip001 RightHandThumb4
+    400096: Bip001 RightInHandIndex
+    400098: Bip001 RightInHandIndex1
+    400100: Bip001 RightInHandIndex2
+    400102: Bip001 RightInHandIndex3
+    400104: Bip001 RightInHandMiddle
+    400106: Bip001 RightInHandMiddle1
+    400108: Bip001 RightInHandMiddle2
+    400110: Bip001 RightInHandMiddle3
+    400112: Bip001 RightInHandPinky
+    400114: Bip001 RightInHandPinky1
+    400116: Bip001 RightInHandPinky2
+    400118: Bip001 RightInHandPinky3
+    400120: Bip001 RightInHandRing
+    400122: Bip001 RightInHandRing1
+    400124: Bip001 RightInHandRing2
+    400126: Bip001 RightInHandRing3
+    400128: Bip001 RightLeg
+    400130: Bip001 RightShoulder
+    400132: Bip001 RightToeBase
+    400134: Bip001 RightUpLeg
+    400136: Bip001 Spine
+    400138: Bip001 Spine1
+    400140: Bip001 Spine2
+    400142: Bip001 Spine3
+    400144: Cavedweller retop
+    400146: Eye Left
+    400148: Eye Right
+    400150: //RootNode
+    2300000: Eye Left
+    2300002: Eye Right
+    3300000: Eye Left
+    3300002: Eye Right
+    4300000: Cavedweller retop
+    4300002: Eye Right
+    4300004: Eye Left
+    7400000: walk
+    7400002: squating position
+    7400004: alert
+    7400006: Run
+    7400008: Standing
+    7400010: Attack
+    9500000: //RootNode
+    13700000: Cavedweller retop
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: walk
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip001 Reference
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 LeftUpLeg
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 LeftUpLeg/Bip001
+          LeftLeg
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 LeftUpLeg/Bip001
+          LeftLeg/Bip001 LeftFoot
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 LeftUpLeg/Bip001
+          LeftLeg/Bip001 LeftFoot/Bip001 LeftToeBase
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 LeftUpLeg/Bip001
+          LeftLeg/Bip001 LeftFoot/Bip001 LeftToeBase/Bip001 L Toe0Nub
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 RightUpLeg
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 RightUpLeg/Bip001
+          RightLeg
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 RightUpLeg/Bip001
+          RightLeg/Bip001 RightFoot
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 RightUpLeg/Bip001
+          RightLeg/Bip001 RightFoot/Bip001 RightToeBase
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 RightUpLeg/Bip001
+          RightLeg/Bip001 RightFoot/Bip001 RightToeBase/Bip001 R Toe0Nub
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandIndex
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandIndex/Bip001 LeftHandIndex1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandIndex/Bip001 LeftHandIndex1/Bip001
+          LeftHandIndex2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandIndex/Bip001 LeftHandIndex1/Bip001
+          LeftHandIndex2/Bip001 LeftHandIndex3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandMiddle
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandMiddle/Bip001 LeftHandMiddle1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandMiddle/Bip001 LeftHandMiddle1/Bip001
+          LeftHandMiddle2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandMiddle/Bip001 LeftHandMiddle1/Bip001
+          LeftHandMiddle2/Bip001 LeftHandMiddle3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandPinky
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandPinky/Bip001 LeftHandPinky1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandPinky/Bip001 LeftHandPinky1/Bip001
+          LeftHandPinky2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandPinky/Bip001 LeftHandPinky1/Bip001
+          LeftHandPinky2/Bip001 LeftHandPinky3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandRing
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandRing/Bip001 LeftHandRing1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandRing/Bip001 LeftHandRing1/Bip001
+          LeftHandRing2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandRing/Bip001 LeftHandRing1/Bip001
+          LeftHandRing2/Bip001 LeftHandRing3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandThumb1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandThumb1/Bip001 LeftHandThumb2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandThumb1/Bip001 LeftHandThumb2/Bip001
+          LeftHandThumb3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandThumb1/Bip001 LeftHandThumb2/Bip001
+          LeftHandThumb3/Bip001 LeftHandThumb4
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Bip001 EyeBrow
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Bip001 EyeBrow/Bip001
+          EyeBrowNub
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Bip001 Head_End
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Bip001 JawBone
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Bip001 JawBone/Bip
+          JawBone Control
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Eye Left
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Eye Right
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightHandThumb1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightHandThumb1/Bip001 RightHandThumb2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightHandThumb1/Bip001 RightHandThumb2/Bip001
+          RightHandThumb3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightHandThumb1/Bip001 RightHandThumb2/Bip001
+          RightHandThumb3/Bip001 RightHandThumb4
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandIndex
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandIndex/Bip001 RightInHandIndex1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandIndex/Bip001 RightInHandIndex1/Bip001
+          RightInHandIndex2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandIndex/Bip001 RightInHandIndex1/Bip001
+          RightInHandIndex2/Bip001 RightInHandIndex3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandMiddle
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandMiddle/Bip001 RightInHandMiddle1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandMiddle/Bip001 RightInHandMiddle1/Bip001
+          RightInHandMiddle2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandMiddle/Bip001 RightInHandMiddle1/Bip001
+          RightInHandMiddle2/Bip001 RightInHandMiddle3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandPinky
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandPinky/Bip001 RightInHandPinky1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandPinky/Bip001 RightInHandPinky1/Bip001
+          RightInHandPinky2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandPinky/Bip001 RightInHandPinky1/Bip001
+          RightInHandPinky2/Bip001 RightInHandPinky3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandRing
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandRing/Bip001 RightInHandRing1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandRing/Bip001 RightInHandRing1/Bip001
+          RightInHandRing2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandRing/Bip001 RightInHandRing1/Bip001
+          RightInHandRing2/Bip001 RightInHandRing3
+        weight: 1
+      - path: Cavedweller retop
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: squating position
+      takeName: Take 001
+      firstFrame: 30
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip001 Reference
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 LeftUpLeg
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 LeftUpLeg/Bip001
+          LeftLeg
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 LeftUpLeg/Bip001
+          LeftLeg/Bip001 LeftFoot
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 LeftUpLeg/Bip001
+          LeftLeg/Bip001 LeftFoot/Bip001 LeftToeBase
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 LeftUpLeg/Bip001
+          LeftLeg/Bip001 LeftFoot/Bip001 LeftToeBase/Bip001 L Toe0Nub
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 RightUpLeg
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 RightUpLeg/Bip001
+          RightLeg
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 RightUpLeg/Bip001
+          RightLeg/Bip001 RightFoot
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 RightUpLeg/Bip001
+          RightLeg/Bip001 RightFoot/Bip001 RightToeBase
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 RightUpLeg/Bip001
+          RightLeg/Bip001 RightFoot/Bip001 RightToeBase/Bip001 R Toe0Nub
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandIndex
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandIndex/Bip001 LeftHandIndex1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandIndex/Bip001 LeftHandIndex1/Bip001
+          LeftHandIndex2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandIndex/Bip001 LeftHandIndex1/Bip001
+          LeftHandIndex2/Bip001 LeftHandIndex3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandMiddle
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandMiddle/Bip001 LeftHandMiddle1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandMiddle/Bip001 LeftHandMiddle1/Bip001
+          LeftHandMiddle2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandMiddle/Bip001 LeftHandMiddle1/Bip001
+          LeftHandMiddle2/Bip001 LeftHandMiddle3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandPinky
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandPinky/Bip001 LeftHandPinky1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandPinky/Bip001 LeftHandPinky1/Bip001
+          LeftHandPinky2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandPinky/Bip001 LeftHandPinky1/Bip001
+          LeftHandPinky2/Bip001 LeftHandPinky3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandRing
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandRing/Bip001 LeftHandRing1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandRing/Bip001 LeftHandRing1/Bip001
+          LeftHandRing2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandRing/Bip001 LeftHandRing1/Bip001
+          LeftHandRing2/Bip001 LeftHandRing3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandThumb1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandThumb1/Bip001 LeftHandThumb2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandThumb1/Bip001 LeftHandThumb2/Bip001
+          LeftHandThumb3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandThumb1/Bip001 LeftHandThumb2/Bip001
+          LeftHandThumb3/Bip001 LeftHandThumb4
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Bip001 EyeBrow
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Bip001 EyeBrow/Bip001
+          EyeBrowNub
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Bip001 Head_End
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Bip001 JawBone
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Bip001 JawBone/Bip
+          JawBone Control
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Eye Left
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Eye Right
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightHandThumb1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightHandThumb1/Bip001 RightHandThumb2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightHandThumb1/Bip001 RightHandThumb2/Bip001
+          RightHandThumb3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightHandThumb1/Bip001 RightHandThumb2/Bip001
+          RightHandThumb3/Bip001 RightHandThumb4
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandIndex
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandIndex/Bip001 RightInHandIndex1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandIndex/Bip001 RightInHandIndex1/Bip001
+          RightInHandIndex2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandIndex/Bip001 RightInHandIndex1/Bip001
+          RightInHandIndex2/Bip001 RightInHandIndex3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandMiddle
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandMiddle/Bip001 RightInHandMiddle1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandMiddle/Bip001 RightInHandMiddle1/Bip001
+          RightInHandMiddle2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandMiddle/Bip001 RightInHandMiddle1/Bip001
+          RightInHandMiddle2/Bip001 RightInHandMiddle3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandPinky
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandPinky/Bip001 RightInHandPinky1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandPinky/Bip001 RightInHandPinky1/Bip001
+          RightInHandPinky2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandPinky/Bip001 RightInHandPinky1/Bip001
+          RightInHandPinky2/Bip001 RightInHandPinky3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandRing
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandRing/Bip001 RightInHandRing1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandRing/Bip001 RightInHandRing1/Bip001
+          RightInHandRing2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandRing/Bip001 RightInHandRing1/Bip001
+          RightInHandRing2/Bip001 RightInHandRing3
+        weight: 1
+      - path: Cavedweller retop
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: alert
+      takeName: Take 001
+      firstFrame: 45
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip001 Reference
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 LeftUpLeg
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 LeftUpLeg/Bip001
+          LeftLeg
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 LeftUpLeg/Bip001
+          LeftLeg/Bip001 LeftFoot
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 LeftUpLeg/Bip001
+          LeftLeg/Bip001 LeftFoot/Bip001 LeftToeBase
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 LeftUpLeg/Bip001
+          LeftLeg/Bip001 LeftFoot/Bip001 LeftToeBase/Bip001 L Toe0Nub
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 RightUpLeg
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 RightUpLeg/Bip001
+          RightLeg
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 RightUpLeg/Bip001
+          RightLeg/Bip001 RightFoot
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 RightUpLeg/Bip001
+          RightLeg/Bip001 RightFoot/Bip001 RightToeBase
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 RightUpLeg/Bip001
+          RightLeg/Bip001 RightFoot/Bip001 RightToeBase/Bip001 R Toe0Nub
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandIndex
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandIndex/Bip001 LeftHandIndex1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandIndex/Bip001 LeftHandIndex1/Bip001
+          LeftHandIndex2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandIndex/Bip001 LeftHandIndex1/Bip001
+          LeftHandIndex2/Bip001 LeftHandIndex3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandMiddle
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandMiddle/Bip001 LeftHandMiddle1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandMiddle/Bip001 LeftHandMiddle1/Bip001
+          LeftHandMiddle2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandMiddle/Bip001 LeftHandMiddle1/Bip001
+          LeftHandMiddle2/Bip001 LeftHandMiddle3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandPinky
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandPinky/Bip001 LeftHandPinky1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandPinky/Bip001 LeftHandPinky1/Bip001
+          LeftHandPinky2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandPinky/Bip001 LeftHandPinky1/Bip001
+          LeftHandPinky2/Bip001 LeftHandPinky3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandRing
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandRing/Bip001 LeftHandRing1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandRing/Bip001 LeftHandRing1/Bip001
+          LeftHandRing2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandRing/Bip001 LeftHandRing1/Bip001
+          LeftHandRing2/Bip001 LeftHandRing3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandThumb1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandThumb1/Bip001 LeftHandThumb2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandThumb1/Bip001 LeftHandThumb2/Bip001
+          LeftHandThumb3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandThumb1/Bip001 LeftHandThumb2/Bip001
+          LeftHandThumb3/Bip001 LeftHandThumb4
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Bip001 EyeBrow
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Bip001 EyeBrow/Bip001
+          EyeBrowNub
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Bip001 Head_End
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Bip001 JawBone
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Bip001 JawBone/Bip
+          JawBone Control
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Eye Left
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Eye Right
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightHandThumb1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightHandThumb1/Bip001 RightHandThumb2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightHandThumb1/Bip001 RightHandThumb2/Bip001
+          RightHandThumb3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightHandThumb1/Bip001 RightHandThumb2/Bip001
+          RightHandThumb3/Bip001 RightHandThumb4
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandIndex
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandIndex/Bip001 RightInHandIndex1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandIndex/Bip001 RightInHandIndex1/Bip001
+          RightInHandIndex2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandIndex/Bip001 RightInHandIndex1/Bip001
+          RightInHandIndex2/Bip001 RightInHandIndex3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandMiddle
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandMiddle/Bip001 RightInHandMiddle1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandMiddle/Bip001 RightInHandMiddle1/Bip001
+          RightInHandMiddle2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandMiddle/Bip001 RightInHandMiddle1/Bip001
+          RightInHandMiddle2/Bip001 RightInHandMiddle3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandPinky
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandPinky/Bip001 RightInHandPinky1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandPinky/Bip001 RightInHandPinky1/Bip001
+          RightInHandPinky2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandPinky/Bip001 RightInHandPinky1/Bip001
+          RightInHandPinky2/Bip001 RightInHandPinky3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandRing
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandRing/Bip001 RightInHandRing1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandRing/Bip001 RightInHandRing1/Bip001
+          RightInHandRing2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandRing/Bip001 RightInHandRing1/Bip001
+          RightInHandRing2/Bip001 RightInHandRing3
+        weight: 1
+      - path: Cavedweller retop
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Run
+      takeName: Take 001
+      firstFrame: 60
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip001 Reference
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 LeftUpLeg
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 LeftUpLeg/Bip001
+          LeftLeg
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 LeftUpLeg/Bip001
+          LeftLeg/Bip001 LeftFoot
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 LeftUpLeg/Bip001
+          LeftLeg/Bip001 LeftFoot/Bip001 LeftToeBase
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 LeftUpLeg/Bip001
+          LeftLeg/Bip001 LeftFoot/Bip001 LeftToeBase/Bip001 L Toe0Nub
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 RightUpLeg
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 RightUpLeg/Bip001
+          RightLeg
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 RightUpLeg/Bip001
+          RightLeg/Bip001 RightFoot
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 RightUpLeg/Bip001
+          RightLeg/Bip001 RightFoot/Bip001 RightToeBase
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 RightUpLeg/Bip001
+          RightLeg/Bip001 RightFoot/Bip001 RightToeBase/Bip001 R Toe0Nub
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandIndex
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandIndex/Bip001 LeftHandIndex1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandIndex/Bip001 LeftHandIndex1/Bip001
+          LeftHandIndex2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandIndex/Bip001 LeftHandIndex1/Bip001
+          LeftHandIndex2/Bip001 LeftHandIndex3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandMiddle
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandMiddle/Bip001 LeftHandMiddle1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandMiddle/Bip001 LeftHandMiddle1/Bip001
+          LeftHandMiddle2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandMiddle/Bip001 LeftHandMiddle1/Bip001
+          LeftHandMiddle2/Bip001 LeftHandMiddle3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandPinky
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandPinky/Bip001 LeftHandPinky1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandPinky/Bip001 LeftHandPinky1/Bip001
+          LeftHandPinky2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandPinky/Bip001 LeftHandPinky1/Bip001
+          LeftHandPinky2/Bip001 LeftHandPinky3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandRing
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandRing/Bip001 LeftHandRing1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandRing/Bip001 LeftHandRing1/Bip001
+          LeftHandRing2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandRing/Bip001 LeftHandRing1/Bip001
+          LeftHandRing2/Bip001 LeftHandRing3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandThumb1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandThumb1/Bip001 LeftHandThumb2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandThumb1/Bip001 LeftHandThumb2/Bip001
+          LeftHandThumb3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandThumb1/Bip001 LeftHandThumb2/Bip001
+          LeftHandThumb3/Bip001 LeftHandThumb4
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Bip001 EyeBrow
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Bip001 EyeBrow/Bip001
+          EyeBrowNub
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Bip001 Head_End
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Bip001 JawBone
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Bip001 JawBone/Bip
+          JawBone Control
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Eye Left
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Eye Right
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightHandThumb1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightHandThumb1/Bip001 RightHandThumb2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightHandThumb1/Bip001 RightHandThumb2/Bip001
+          RightHandThumb3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightHandThumb1/Bip001 RightHandThumb2/Bip001
+          RightHandThumb3/Bip001 RightHandThumb4
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandIndex
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandIndex/Bip001 RightInHandIndex1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandIndex/Bip001 RightInHandIndex1/Bip001
+          RightInHandIndex2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandIndex/Bip001 RightInHandIndex1/Bip001
+          RightInHandIndex2/Bip001 RightInHandIndex3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandMiddle
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandMiddle/Bip001 RightInHandMiddle1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandMiddle/Bip001 RightInHandMiddle1/Bip001
+          RightInHandMiddle2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandMiddle/Bip001 RightInHandMiddle1/Bip001
+          RightInHandMiddle2/Bip001 RightInHandMiddle3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandPinky
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandPinky/Bip001 RightInHandPinky1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandPinky/Bip001 RightInHandPinky1/Bip001
+          RightInHandPinky2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandPinky/Bip001 RightInHandPinky1/Bip001
+          RightInHandPinky2/Bip001 RightInHandPinky3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandRing
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandRing/Bip001 RightInHandRing1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandRing/Bip001 RightInHandRing1/Bip001
+          RightInHandRing2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandRing/Bip001 RightInHandRing1/Bip001
+          RightInHandRing2/Bip001 RightInHandRing3
+        weight: 1
+      - path: Cavedweller retop
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Standing
+      takeName: Take 001
+      firstFrame: 90
+      lastFrame: 105
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip001 Reference
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 LeftUpLeg
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 LeftUpLeg/Bip001
+          LeftLeg
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 LeftUpLeg/Bip001
+          LeftLeg/Bip001 LeftFoot
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 LeftUpLeg/Bip001
+          LeftLeg/Bip001 LeftFoot/Bip001 LeftToeBase
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 LeftUpLeg/Bip001
+          LeftLeg/Bip001 LeftFoot/Bip001 LeftToeBase/Bip001 L Toe0Nub
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 RightUpLeg
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 RightUpLeg/Bip001
+          RightLeg
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 RightUpLeg/Bip001
+          RightLeg/Bip001 RightFoot
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 RightUpLeg/Bip001
+          RightLeg/Bip001 RightFoot/Bip001 RightToeBase
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 RightUpLeg/Bip001
+          RightLeg/Bip001 RightFoot/Bip001 RightToeBase/Bip001 R Toe0Nub
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandIndex
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandIndex/Bip001 LeftHandIndex1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandIndex/Bip001 LeftHandIndex1/Bip001
+          LeftHandIndex2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandIndex/Bip001 LeftHandIndex1/Bip001
+          LeftHandIndex2/Bip001 LeftHandIndex3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandMiddle
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandMiddle/Bip001 LeftHandMiddle1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandMiddle/Bip001 LeftHandMiddle1/Bip001
+          LeftHandMiddle2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandMiddle/Bip001 LeftHandMiddle1/Bip001
+          LeftHandMiddle2/Bip001 LeftHandMiddle3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandPinky
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandPinky/Bip001 LeftHandPinky1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandPinky/Bip001 LeftHandPinky1/Bip001
+          LeftHandPinky2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandPinky/Bip001 LeftHandPinky1/Bip001
+          LeftHandPinky2/Bip001 LeftHandPinky3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandRing
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandRing/Bip001 LeftHandRing1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandRing/Bip001 LeftHandRing1/Bip001
+          LeftHandRing2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandRing/Bip001 LeftHandRing1/Bip001
+          LeftHandRing2/Bip001 LeftHandRing3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandThumb1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandThumb1/Bip001 LeftHandThumb2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandThumb1/Bip001 LeftHandThumb2/Bip001
+          LeftHandThumb3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandThumb1/Bip001 LeftHandThumb2/Bip001
+          LeftHandThumb3/Bip001 LeftHandThumb4
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Bip001 EyeBrow
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Bip001 EyeBrow/Bip001
+          EyeBrowNub
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Bip001 Head_End
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Bip001 JawBone
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Bip001 JawBone/Bip
+          JawBone Control
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Eye Left
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Eye Right
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightHandThumb1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightHandThumb1/Bip001 RightHandThumb2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightHandThumb1/Bip001 RightHandThumb2/Bip001
+          RightHandThumb3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightHandThumb1/Bip001 RightHandThumb2/Bip001
+          RightHandThumb3/Bip001 RightHandThumb4
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandIndex
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandIndex/Bip001 RightInHandIndex1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandIndex/Bip001 RightInHandIndex1/Bip001
+          RightInHandIndex2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandIndex/Bip001 RightInHandIndex1/Bip001
+          RightInHandIndex2/Bip001 RightInHandIndex3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandMiddle
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandMiddle/Bip001 RightInHandMiddle1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandMiddle/Bip001 RightInHandMiddle1/Bip001
+          RightInHandMiddle2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandMiddle/Bip001 RightInHandMiddle1/Bip001
+          RightInHandMiddle2/Bip001 RightInHandMiddle3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandPinky
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandPinky/Bip001 RightInHandPinky1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandPinky/Bip001 RightInHandPinky1/Bip001
+          RightInHandPinky2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandPinky/Bip001 RightInHandPinky1/Bip001
+          RightInHandPinky2/Bip001 RightInHandPinky3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandRing
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandRing/Bip001 RightInHandRing1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandRing/Bip001 RightInHandRing1/Bip001
+          RightInHandRing2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandRing/Bip001 RightInHandRing1/Bip001
+          RightInHandRing2/Bip001 RightInHandRing3
+        weight: 1
+      - path: Cavedweller retop
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Attack
+      takeName: Take 001
+      firstFrame: 105
+      lastFrame: 130
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bip001 Reference
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 LeftUpLeg
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 LeftUpLeg/Bip001
+          LeftLeg
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 LeftUpLeg/Bip001
+          LeftLeg/Bip001 LeftFoot
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 LeftUpLeg/Bip001
+          LeftLeg/Bip001 LeftFoot/Bip001 LeftToeBase
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 LeftUpLeg/Bip001
+          LeftLeg/Bip001 LeftFoot/Bip001 LeftToeBase/Bip001 L Toe0Nub
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 RightUpLeg
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 RightUpLeg/Bip001
+          RightLeg
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 RightUpLeg/Bip001
+          RightLeg/Bip001 RightFoot
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 RightUpLeg/Bip001
+          RightLeg/Bip001 RightFoot/Bip001 RightToeBase
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 RightUpLeg/Bip001
+          RightLeg/Bip001 RightFoot/Bip001 RightToeBase/Bip001 R Toe0Nub
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandIndex
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandIndex/Bip001 LeftHandIndex1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandIndex/Bip001 LeftHandIndex1/Bip001
+          LeftHandIndex2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandIndex/Bip001 LeftHandIndex1/Bip001
+          LeftHandIndex2/Bip001 LeftHandIndex3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandMiddle
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandMiddle/Bip001 LeftHandMiddle1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandMiddle/Bip001 LeftHandMiddle1/Bip001
+          LeftHandMiddle2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandMiddle/Bip001 LeftHandMiddle1/Bip001
+          LeftHandMiddle2/Bip001 LeftHandMiddle3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandPinky
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandPinky/Bip001 LeftHandPinky1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandPinky/Bip001 LeftHandPinky1/Bip001
+          LeftHandPinky2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandPinky/Bip001 LeftHandPinky1/Bip001
+          LeftHandPinky2/Bip001 LeftHandPinky3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandRing
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandRing/Bip001 LeftHandRing1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandRing/Bip001 LeftHandRing1/Bip001
+          LeftHandRing2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandRing/Bip001 LeftHandRing1/Bip001
+          LeftHandRing2/Bip001 LeftHandRing3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandThumb1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandThumb1/Bip001 LeftHandThumb2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandThumb1/Bip001 LeftHandThumb2/Bip001
+          LeftHandThumb3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 LeftShoulder/Bip001 LeftArm/Bip001
+          LeftForearm/Bip001 LeftHand/Bip001 LeftHandThumb1/Bip001 LeftHandThumb2/Bip001
+          LeftHandThumb3/Bip001 LeftHandThumb4
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Bip001 EyeBrow
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Bip001 EyeBrow/Bip001
+          EyeBrowNub
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Bip001 Head_End
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Bip001 JawBone
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Bip001 JawBone/Bip
+          JawBone Control
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Eye Left
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 Neck/Bip001 Head/Eye Right
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightHandThumb1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightHandThumb1/Bip001 RightHandThumb2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightHandThumb1/Bip001 RightHandThumb2/Bip001
+          RightHandThumb3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightHandThumb1/Bip001 RightHandThumb2/Bip001
+          RightHandThumb3/Bip001 RightHandThumb4
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandIndex
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandIndex/Bip001 RightInHandIndex1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandIndex/Bip001 RightInHandIndex1/Bip001
+          RightInHandIndex2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandIndex/Bip001 RightInHandIndex1/Bip001
+          RightInHandIndex2/Bip001 RightInHandIndex3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandMiddle
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandMiddle/Bip001 RightInHandMiddle1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandMiddle/Bip001 RightInHandMiddle1/Bip001
+          RightInHandMiddle2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandMiddle/Bip001 RightInHandMiddle1/Bip001
+          RightInHandMiddle2/Bip001 RightInHandMiddle3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandPinky
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandPinky/Bip001 RightInHandPinky1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandPinky/Bip001 RightInHandPinky1/Bip001
+          RightInHandPinky2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandPinky/Bip001 RightInHandPinky1/Bip001
+          RightInHandPinky2/Bip001 RightInHandPinky3
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandRing
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandRing/Bip001 RightInHandRing1
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandRing/Bip001 RightInHandRing1/Bip001
+          RightInHandRing2
+        weight: 1
+      - path: Bip001 Reference/Bip001 Reference 1/Bip001 Hips/Bip001 Spine/Bip001
+          Spine1/Bip001 Spine2/Bip001 Spine3/Bip001 RightShoulder/Bip001 RightArm/Bip001
+          RightForeArm/Bip001 RightHand/Bip001 RightInHandRing/Bip001 RightInHandRing1/Bip001
+          RightInHandRing2/Bip001 RightInHandRing3
+        weight: 1
+      - path: Cavedweller retop
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
